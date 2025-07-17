@@ -1,0 +1,5 @@
+样本编号,特征,实际价格,预测价格,误差,原因
+381,BOSTON，1 1/9 bushel crates，PIE TYPE，MASSACHUSETTS，sml,15.5,15.5,0,预测正确原因：该特征组合在训练集中样本充足，价格分布稳定，模型准确捕捉规律。
+495,BOSTON，24 inch bins，BLUE TYPE，MASSACHUSETTS，xlge,272.5,272.5,0,预测正确原因：该特征组合在训练集中样本充足，价格分布稳定，模型准确捕捉规律。
+1114,LOS ANGELES，36 inch bins，FAIRYTALE，CALIFORNIA，med,250,65.59606478,-184.4039352,预测错误原因：训练集中同特征组合样本少或价格异常，模型泛化能力不足。
+1107,LOS ANGELES，36 inch bins，CINDERELLA，CALIFORNIA，med,250,66.93199335,-183.0680066,预测错误原因：训练集中同特征组合样本少或价格异常，模型泛化能力不足。

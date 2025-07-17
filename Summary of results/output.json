@@ -1,0 +1,737 @@
+[
+    {
+        "model_name": "LR",
+        "model_params": {
+            "copy_X": true,
+            "fit_intercept": true,
+            "n_jobs": null,
+            "positive": false
+        },
+        "fea_encoding": "one-hot",
+        "0_fold_train_data": [
+            1405,
+            67
+        ],
+        "0_fold_test_data": [
+            352,
+            67
+        ],
+        "0_fold_train_performance": {
+            "rmse": "36.01",
+            "mae": "23.69",
+            "r2": "0.82"
+        },
+        "0_fold_test_performance": {
+            "rmse": "38.28",
+            "mae": "24.63",
+            "r2": "0.82"
+        },
+        "1_fold_train_data": [
+            1405,
+            67
+        ],
+        "1_fold_test_data": [
+            352,
+            67
+        ],
+        "1_fold_train_performance": {
+            "rmse": "36.70",
+            "mae": "24.10",
+            "r2": "0.82"
+        },
+        "1_fold_test_performance": {
+            "rmse": "35.21",
+            "mae": "24.41",
+            "r2": "0.82"
+        },
+        "2_fold_train_data": [
+            1406,
+            67
+        ],
+        "2_fold_test_data": [
+            351,
+            67
+        ],
+        "2_fold_train_performance": {
+            "rmse": "36.41",
+            "mae": "24.10",
+            "r2": "0.82"
+        },
+        "2_fold_test_performance": {
+            "rmse": "36.67",
+            "mae": "24.69",
+            "r2": "0.82"
+        },
+        "3_fold_train_data": [
+            1406,
+            67
+        ],
+        "3_fold_test_data": [
+            351,
+            67
+        ],
+        "3_fold_train_performance": {
+            "rmse": "35.82",
+            "mae": "24.15",
+            "r2": "0.83"
+        },
+        "3_fold_test_performance": {
+            "rmse": "39.51",
+            "mae": "24.94",
+            "r2": "0.79"
+        },
+        "4_fold_train_data": [
+            1406,
+            67
+        ],
+        "4_fold_test_data": [
+            351,
+            67
+        ],
+        "4_fold_train_performance": {
+            "rmse": "35.83",
+            "mae": "23.77",
+            "r2": "0.83"
+        },
+        "4_fold_test_performance": {
+            "rmse": "39.10",
+            "mae": "26.01",
+            "r2": "0.80"
+        },
+        "average_train_performance": {
+            "rmse": "36.15",
+            "mae": "23.96",
+            "r2": "0.82"
+        },
+        "average_test_performance": {
+            "rmse": "37.75",
+            "mae": "24.94",
+            "r2": "0.81"
+        }
+    },
+    {
+        "model_name": "Ridge",
+        "model_params": {
+            "alpha": 1.0,
+            "copy_X": true,
+            "fit_intercept": true,
+            "max_iter": null,
+            "positive": false,
+            "random_state": null,
+            "solver": "auto",
+            "tol": 0.0001
+        },
+        "fea_encoding": "one-hot",
+        "0_fold_train_data": [
+            1405,
+            67
+        ],
+        "0_fold_test_data": [
+            352,
+            67
+        ],
+        "0_fold_train_performance": {
+            "rmse": "36.16",
+            "mae": "23.39",
+            "r2": "0.82"
+        },
+        "0_fold_test_performance": {
+            "rmse": "39.06",
+            "mae": "24.81",
+            "r2": "0.81"
+        },
+        "1_fold_train_data": [
+            1405,
+            67
+        ],
+        "1_fold_test_data": [
+            352,
+            67
+        ],
+        "1_fold_train_performance": {
+            "rmse": "36.89",
+            "mae": "23.76",
+            "r2": "0.82"
+        },
+        "1_fold_test_performance": {
+            "rmse": "35.26",
+            "mae": "24.05",
+            "r2": "0.82"
+        },
+        "2_fold_train_data": [
+            1406,
+            67
+        ],
+        "2_fold_test_data": [
+            351,
+            67
+        ],
+        "2_fold_train_performance": {
+            "rmse": "36.60",
+            "mae": "23.81",
+            "r2": "0.82"
+        },
+        "2_fold_test_performance": {
+            "rmse": "36.44",
+            "mae": "24.22",
+            "r2": "0.82"
+        },
+        "3_fold_train_data": [
+            1406,
+            67
+        ],
+        "3_fold_test_data": [
+            351,
+            67
+        ],
+        "3_fold_train_performance": {
+            "rmse": "36.00",
+            "mae": "23.85",
+            "r2": "0.83"
+        },
+        "3_fold_test_performance": {
+            "rmse": "39.73",
+            "mae": "24.51",
+            "r2": "0.79"
+        },
+        "4_fold_train_data": [
+            1406,
+            67
+        ],
+        "4_fold_test_data": [
+            351,
+            67
+        ],
+        "4_fold_train_performance": {
+            "rmse": "36.05",
+            "mae": "23.50",
+            "r2": "0.83"
+        },
+        "4_fold_test_performance": {
+            "rmse": "38.52",
+            "mae": "25.28",
+            "r2": "0.80"
+        },
+        "average_train_performance": {
+            "rmse": "36.34",
+            "mae": "23.66",
+            "r2": "0.82"
+        },
+        "average_test_performance": {
+            "rmse": "37.80",
+            "mae": "24.57",
+            "r2": "0.81"
+        }
+    },
+    {
+        "model_name": "Lasso",
+        "model_params": {
+            "alpha": 0.1,
+            "copy_X": true,
+            "fit_intercept": true,
+            "max_iter": 1000,
+            "positive": false,
+            "precompute": false,
+            "random_state": null,
+            "selection": "cyclic",
+            "tol": 0.0001,
+            "warm_start": false
+        },
+        "fea_encoding": "one-hot",
+        "0_fold_train_data": [
+            1405,
+            67
+        ],
+        "0_fold_test_data": [
+            352,
+            67
+        ],
+        "0_fold_train_performance": {
+            "rmse": "36.64",
+            "mae": "23.53",
+            "r2": "0.82"
+        },
+        "0_fold_test_performance": {
+            "rmse": "39.75",
+            "mae": "24.95",
+            "r2": "0.80"
+        },
+        "1_fold_train_data": [
+            1405,
+            67
+        ],
+        "1_fold_test_data": [
+            352,
+            67
+        ],
+        "1_fold_train_performance": {
+            "rmse": "37.40",
+            "mae": "23.93",
+            "r2": "0.82"
+        },
+        "1_fold_test_performance": {
+            "rmse": "35.66",
+            "mae": "24.04",
+            "r2": "0.82"
+        },
+        "2_fold_train_data": [
+            1406,
+            67
+        ],
+        "2_fold_test_data": [
+            351,
+            67
+        ],
+        "2_fold_train_performance": {
+            "rmse": "37.03",
+            "mae": "23.80",
+            "r2": "0.82"
+        },
+        "2_fold_test_performance": {
+            "rmse": "36.83",
+            "mae": "24.25",
+            "r2": "0.82"
+        },
+        "3_fold_train_data": [
+            1406,
+            67
+        ],
+        "3_fold_test_data": [
+            351,
+            67
+        ],
+        "3_fold_train_performance": {
+            "rmse": "36.50",
+            "mae": "23.92",
+            "r2": "0.82"
+        },
+        "3_fold_test_performance": {
+            "rmse": "39.64",
+            "mae": "24.11",
+            "r2": "0.79"
+        },
+        "4_fold_train_data": [
+            1406,
+            67
+        ],
+        "4_fold_test_data": [
+            351,
+            67
+        ],
+        "4_fold_train_performance": {
+            "rmse": "36.59",
+            "mae": "23.65",
+            "r2": "0.82"
+        },
+        "4_fold_test_performance": {
+            "rmse": "38.59",
+            "mae": "25.14",
+            "r2": "0.80"
+        },
+        "average_train_performance": {
+            "rmse": "36.83",
+            "mae": "23.77",
+            "r2": "0.82"
+        },
+        "average_test_performance": {
+            "rmse": "38.09",
+            "mae": "24.50",
+            "r2": "0.81"
+        }
+    },
+    {
+        "model_name": "RF",
+        "model_params": {
+            "bootstrap": true,
+            "ccp_alpha": 0.0,
+            "criterion": "squared_error",
+            "max_depth": null,
+            "max_features": 1.0,
+            "max_leaf_nodes": null,
+            "max_samples": null,
+            "min_impurity_decrease": 0.0,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "min_weight_fraction_leaf": 0.0,
+            "n_estimators": 100,
+            "n_jobs": null,
+            "oob_score": false,
+            "random_state": 42,
+            "verbose": 0,
+            "warm_start": false
+        },
+        "fea_encoding": "one-hot",
+        "0_fold_train_data": [
+            1405,
+            67
+        ],
+        "0_fold_test_data": [
+            352,
+            67
+        ],
+        "0_fold_train_performance": {
+            "rmse": "11.82",
+            "mae": "3.45",
+            "r2": "0.98"
+        },
+        "0_fold_test_performance": {
+            "rmse": "18.84",
+            "mae": "7.33",
+            "r2": "0.96"
+        },
+        "1_fold_train_data": [
+            1405,
+            67
+        ],
+        "1_fold_test_data": [
+            352,
+            67
+        ],
+        "1_fold_train_performance": {
+            "rmse": "11.35",
+            "mae": "3.38",
+            "r2": "0.98"
+        },
+        "1_fold_test_performance": {
+            "rmse": "16.42",
+            "mae": "6.71",
+            "r2": "0.96"
+        },
+        "2_fold_train_data": [
+            1406,
+            67
+        ],
+        "2_fold_test_data": [
+            351,
+            67
+        ],
+        "2_fold_train_performance": {
+            "rmse": "11.05",
+            "mae": "3.39",
+            "r2": "0.98"
+        },
+        "2_fold_test_performance": {
+            "rmse": "19.90",
+            "mae": "7.45",
+            "r2": "0.95"
+        },
+        "3_fold_train_data": [
+            1406,
+            67
+        ],
+        "3_fold_test_data": [
+            351,
+            67
+        ],
+        "3_fold_train_performance": {
+            "rmse": "6.88",
+            "mae": "2.70",
+            "r2": "0.99"
+        },
+        "3_fold_test_performance": {
+            "rmse": "26.85",
+            "mae": "9.14",
+            "r2": "0.90"
+        },
+        "4_fold_train_data": [
+            1406,
+            67
+        ],
+        "4_fold_test_data": [
+            351,
+            67
+        ],
+        "4_fold_train_performance": {
+            "rmse": "8.28",
+            "mae": "2.90",
+            "r2": "0.99"
+        },
+        "4_fold_test_performance": {
+            "rmse": "23.83",
+            "mae": "8.28",
+            "r2": "0.92"
+        },
+        "average_train_performance": {
+            "rmse": "9.88",
+            "mae": "3.16",
+            "r2": "0.98"
+        },
+        "average_test_performance": {
+            "rmse": "21.17",
+            "mae": "7.78",
+            "r2": "0.94"
+        }
+    },
+    {
+        "model_name": "XGB",
+        "model_params": {
+            "objective": "reg:squarederror",
+            "base_score": null,
+            "booster": null,
+            "callbacks": null,
+            "colsample_bylevel": null,
+            "colsample_bynode": null,
+            "colsample_bytree": null,
+            "device": null,
+            "early_stopping_rounds": null,
+            "enable_categorical": false,
+            "eval_metric": null,
+            "feature_types": null,
+            "feature_weights": null,
+            "gamma": null,
+            "grow_policy": null,
+            "importance_type": null,
+            "interaction_constraints": null,
+            "learning_rate": null,
+            "max_bin": null,
+            "max_cat_threshold": null,
+            "max_cat_to_onehot": null,
+            "max_delta_step": null,
+            "max_depth": null,
+            "max_leaves": null,
+            "min_child_weight": null,
+            "missing": NaN,
+            "monotone_constraints": null,
+            "multi_strategy": null,
+            "n_estimators": 100,
+            "n_jobs": null,
+            "num_parallel_tree": null,
+            "random_state": 42,
+            "reg_alpha": null,
+            "reg_lambda": null,
+            "sampling_method": null,
+            "scale_pos_weight": null,
+            "subsample": null,
+            "tree_method": null,
+            "validate_parameters": null,
+            "verbosity": null
+        },
+        "fea_encoding": "one-hot",
+        "0_fold_train_data": [
+            1405,
+            67
+        ],
+        "0_fold_test_data": [
+            352,
+            67
+        ],
+        "0_fold_train_performance": {
+            "rmse": "10.09",
+            "mae": "3.59",
+            "r2": "0.99"
+        },
+        "0_fold_test_performance": {
+            "rmse": "15.87",
+            "mae": "7.44",
+            "r2": "0.97"
+        },
+        "1_fold_train_data": [
+            1405,
+            67
+        ],
+        "1_fold_test_data": [
+            352,
+            67
+        ],
+        "1_fold_train_performance": {
+            "rmse": "10.06",
+            "mae": "3.55",
+            "r2": "0.99"
+        },
+        "1_fold_test_performance": {
+            "rmse": "15.92",
+            "mae": "7.55",
+            "r2": "0.96"
+        },
+        "2_fold_train_data": [
+            1406,
+            67
+        ],
+        "2_fold_test_data": [
+            351,
+            67
+        ],
+        "2_fold_train_performance": {
+            "rmse": "10.29",
+            "mae": "3.78",
+            "r2": "0.99"
+        },
+        "2_fold_test_performance": {
+            "rmse": "20.44",
+            "mae": "8.25",
+            "r2": "0.94"
+        },
+        "3_fold_train_data": [
+            1406,
+            67
+        ],
+        "3_fold_test_data": [
+            351,
+            67
+        ],
+        "3_fold_train_performance": {
+            "rmse": "5.17",
+            "mae": "3.06",
+            "r2": "1.00"
+        },
+        "3_fold_test_performance": {
+            "rmse": "29.23",
+            "mae": "10.65",
+            "r2": "0.89"
+        },
+        "4_fold_train_data": [
+            1406,
+            67
+        ],
+        "4_fold_test_data": [
+            351,
+            67
+        ],
+        "4_fold_train_performance": {
+            "rmse": "7.22",
+            "mae": "3.46",
+            "r2": "0.99"
+        },
+        "4_fold_test_performance": {
+            "rmse": "25.03",
+            "mae": "9.00",
+            "r2": "0.92"
+        },
+        "average_train_performance": {
+            "rmse": "8.57",
+            "mae": "3.49",
+            "r2": "0.99"
+        },
+        "average_test_performance": {
+            "rmse": "21.30",
+            "mae": "8.58",
+            "r2": "0.94"
+        }
+    },
+    {
+        "model_name": "LGBM",
+        "model_params": {
+            "boosting_type": "gbdt",
+            "class_weight": null,
+            "colsample_bytree": 0.8,
+            "importance_type": "split",
+            "learning_rate": 0.1,
+            "max_depth": -1,
+            "min_child_samples": 5,
+            "min_child_weight": 0.001,
+            "min_split_gain": 0.01,
+            "n_estimators": 100,
+            "n_jobs": null,
+            "num_leaves": 31,
+            "objective": null,
+            "random_state": 42,
+            "reg_alpha": 0.1,
+            "reg_lambda": 0.1,
+            "subsample": 0.8,
+            "subsample_for_bin": 200000,
+            "subsample_freq": 0,
+            "verbose": -1
+        },
+        "fea_encoding": "one-hot",
+        "0_fold_train_data": [
+            1405,
+            67
+        ],
+        "0_fold_test_data": [
+            352,
+            67
+        ],
+        "0_fold_train_performance": {
+            "rmse": "14.61",
+            "mae": "7.29",
+            "r2": "0.97"
+        },
+        "0_fold_test_performance": {
+            "rmse": "23.56",
+            "mae": "11.53",
+            "r2": "0.93"
+        },
+        "1_fold_train_data": [
+            1405,
+            67
+        ],
+        "1_fold_test_data": [
+            352,
+            67
+        ],
+        "1_fold_train_performance": {
+            "rmse": "14.12",
+            "mae": "7.21",
+            "r2": "0.97"
+        },
+        "1_fold_test_performance": {
+            "rmse": "17.88",
+            "mae": "10.31",
+            "r2": "0.95"
+        },
+        "2_fold_train_data": [
+            1406,
+            67
+        ],
+        "2_fold_test_data": [
+            351,
+            67
+        ],
+        "2_fold_train_performance": {
+            "rmse": "14.12",
+            "mae": "7.15",
+            "r2": "0.97"
+        },
+        "2_fold_test_performance": {
+            "rmse": "20.54",
+            "mae": "10.51",
+            "r2": "0.94"
+        },
+        "3_fold_train_data": [
+            1406,
+            67
+        ],
+        "3_fold_test_data": [
+            351,
+            67
+        ],
+        "3_fold_train_performance": {
+            "rmse": "11.80",
+            "mae": "6.65",
+            "r2": "0.98"
+        },
+        "3_fold_test_performance": {
+            "rmse": "26.63",
+            "mae": "12.26",
+            "r2": "0.91"
+        },
+        "4_fold_train_data": [
+            1406,
+            67
+        ],
+        "4_fold_test_data": [
+            351,
+            67
+        ],
+        "4_fold_train_performance": {
+            "rmse": "12.30",
+            "mae": "7.01",
+            "r2": "0.98"
+        },
+        "4_fold_test_performance": {
+            "rmse": "25.24",
+            "mae": "12.22",
+            "r2": "0.92"
+        },
+        "average_train_performance": {
+            "rmse": "13.39",
+            "mae": "7.06",
+            "r2": "0.97"
+        },
+        "average_test_performance": {
+            "rmse": "22.77",
+            "mae": "11.37",
+            "r2": "0.93"
+        }
+    }
+]

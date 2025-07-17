@@ -1,0 +1,7 @@
+model_name,fea_encoding,average_train_performance (RMSE),average_train_performance (MAE),average_train_performance (R²),average_test_performance (RMSE),average_test_performance (MAE),average_test_performance (R²)
+LR,one-hot,36.15,23.96,0.82,37.75,24.94,0.81
+Ridge,one-hot,36.34,23.66,0.82,37.8,24.57,0.81
+Lasso,one-hot,36.83,23.77,0.82,38.09,24.5,0.81
+RF,one-hot,9.88,3.16,0.98,21.17,7.78,0.94
+XGB,one-hot,8.57,3.49,0.99,21.3,8.58,0.94
+LGBM,one-hot,13.39,7.06,0.97,22.77,11.37,0.93
